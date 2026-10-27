@@ -32,7 +32,18 @@ function mayorDeDos(numero1, numero2) {
     } else if (numero1 < numero2) {
         return numero2
     } else {
-        return'Los números ' + numero1 + ' y ' + numero2 + ' son iguales'
+        return 'Los números ' + numero1 + ' y ' + numero2 + ' son iguales'
     }
 }
 console.log(mayorDeDos(10, 10))
+
+
+// Ejercicio 4
+function esDivisiblePorCinco(numeroX) {
+    if (numeroX % 5 == 0) {
+        return true
+    } else {
+        return false
+    }
+}
+console.log(esDivisiblePorCinco(68))
