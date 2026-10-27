@@ -10,5 +10,16 @@ function verificarNumero(num) {
     }
 
 }
+verificarNumero(-1)
 
-console.log(verificarNumero(-3))
+
+// Ejercicio 2
+function puedeVotar(edad) {
+    if(edad >= 18) {
+        return 'Puede votar'
+    } else {
+        return 'No puede votar'
+    }
+}
+
+console.log(puedeVotar(16))
