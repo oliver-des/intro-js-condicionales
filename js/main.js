@@ -53,13 +53,13 @@ console.log(esDivisiblePorCinco(68))
 function clasificarNota(nota) {
     nota <= 100
     if (nota >= 90) {
-        return Excelente
-    } else if (nota >= 70 & < 90) {
-        return Buena
-    } else if (nota >= 50 & < 70) {
-        return Regular
+        return 'Excelente'
+    } else if (nota >= 70 & nota < 90) {
+        return 'Buena'
+    } else if (nota >= 50 & nota < 70) {
+        return 'Regular'
     } else {
-        return Insuficiente
+        return 'Insuficiente'
     }
 }
-console.log(clasificarNota(80))
+console.log(clasificarNota(30))
